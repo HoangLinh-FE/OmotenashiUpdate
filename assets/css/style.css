@@ -953,7 +953,7 @@ header {
     font-size: 20px;
   }
   .header-two-top .logo-footer img {
-    width: 24px;
+    width: 125px;
   }
 }
 @media (max-width: 575px) {
@@ -1567,9 +1567,9 @@ footer h6 {
   .logo-text {
     font-size: 24px;
   }
-  .logo-footer img {
+  /* .logo-footer img {
     width: 30px;
-  }
+  } */
   .footer-menu li:not(:last-child) {
     margin-right: 48px;
   }
@@ -4033,6 +4033,7 @@ blockquote:before {
   position: relative;
   z-index: 3;
   padding-bottom: 335px;
+  padding-top: 50px;
 }
 .main-slide-two .container .main-slide-item {
   max-width: 730px;

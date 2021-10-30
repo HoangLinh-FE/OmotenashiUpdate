@@ -88,7 +88,7 @@ video {
   vertical-align: baseline;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
   line-height: 1;
 }
 ol,
@@ -374,6 +374,10 @@ header {
   display: block;
   vertical-align: top;
   position: relative;
+  padding: 10px;
+}
+.nav-list li:hover{
+  background-color: #2ccfbb;
 }
 @media (min-width: 768px) {
   .nav-list {
@@ -464,7 +468,7 @@ header {
   text-decoration: none;
   padding: 0;
   display: block;
-  line-height: 30px;
+  line-height: 22px;
 }
 .nav-list li a {
   font-weight: 600;
@@ -475,7 +479,7 @@ header {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-around;
   -ms-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -484,6 +488,7 @@ header {
   transition: all 0.3s ease;
   color: #151515;
   letter-spacing: 0.12em;
+  width: 128px; 
 }
 .nav-list li a i {
   margin-left: 5px;
@@ -896,6 +901,9 @@ header {
   }
   .header-menu.header-menu-two {
     overflow: visible;
+  }
+  .nav-list li a{
+    width: 100% !important;
   }
 }
 @media (max-width: 767px) {
@@ -2853,17 +2861,22 @@ footer h6 {
   position: relative;
 }
 .history-info-cover .history-info .title:before {
-  content: "";
+  content: "\f061";
+  font-family: FontAwesome;
   position: absolute;
-  left: -100px;
+  left: -105px;
   top: 26px;
-  width: 31px;
-  height: 31px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 6px solid rgba(124, 119, 248, 0.3);
   border-radius: 50%;
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
   background-color: #fff;
+  color: #2ccfbb;
 }
 .history-info-cover .history-info .title span {
   color: #2ccfbb;
@@ -5383,6 +5396,7 @@ blockquote:before {
   .s-pricing .pricing-item .pricing-item-content {
     padding: 20px 20px 30px;
   }
+
   .s-pricing .pricing-item:nth-of-type(2) .pricing-item-content {
     padding-bottom: 40px;
   }
@@ -5410,6 +5424,10 @@ blockquote:before {
   }
   .overview-img-cover .overview-img:last-child img {
     height: 280px;
+  }
+  .pad-30::before {
+    content: ".";
+    color: #fff;
   }
 }
 @media (max-width: 767px) {
@@ -5823,6 +5841,9 @@ blockquote:before {
   }
   .s-pravicy-policy .accordion-item:not(:first-child) {
     margin-top: 30px;
+  }
+  .nav-list li a{
+    width: 100% !important;
   }
 }
 @media (max-width: 575px) {

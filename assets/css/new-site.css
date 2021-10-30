@@ -30,17 +30,12 @@
 .text-white {
   color: #fff;
   -webkit-text-stroke: 1px black;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
   /* text-shadow:5px 5px 10px black; */
 }
 
-
-.register-btn{
+.register-btn {
   cursor: pointer;
   padding: 20px 40px;
   text-align: center;
@@ -53,26 +48,24 @@
   width: -webkit-fill-available;
 }
 
-.text-hidden{
+.text-hidden {
   /* white-space: nowrap;  */
   overflow: hidden;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
   word-break: keep-all;
   max-height: 70px;
   position: relative;
 }
 
-.text-hidden:hover{
+.text-hidden:hover {
   overflow: visible;
   word-break: keep-all;
   cursor: pointer;
-
 }
 
-.text-hidden a:hover{
+.text-hidden a:hover {
   color: #0d3150;
 }
-
 
 .text-hidden .text-details {
   visibility: hidden;
@@ -80,8 +73,8 @@
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px ;
-  
+  padding: 5px;
+
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
@@ -93,33 +86,33 @@
   visibility: visible;
 }
 
-.home-buy-btn{
+.home-buy-btn {
   border-radius: 20px !important;
-  opacity: .7;
+  opacity: 0.7;
 }
 
-.home-buy-btn:hover{
+.home-buy-btn:hover {
   border-radius: 20px !important;
   opacity: 1;
 }
 
-.home-title-1{
+.home-title-1 {
   font-size: 48px;
 }
 
-.icon-check{
+.icon-check {
   background-color: #58be60;
   border-radius: 50%;
   padding: 5px;
   color: #fff;
 }
-.refreshCapcha{
+.refreshCapcha {
   border: none;
   cursor: pointer;
   background: none;
 }
 
-.bg-light{
+.bg-light {
   background: none;
   padding-bottom: 200px;
 }
@@ -135,13 +128,16 @@
   text-align: center;
 }
 
-.block-QR{
+.block-QR {
   margin: 0 10px;
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 15px;
 }
-.img-code{
+.img-code {
   max-width: 150px;
-  
+}
+
+.w-110 {
+  width: 110px !important;
 }

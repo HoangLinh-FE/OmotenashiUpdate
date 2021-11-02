@@ -2874,8 +2874,8 @@ footer h6 {
   margin-bottom: 12px;
   position: relative;
 }
-.history-info-cover .history-info .title:before {
-  content: "\f061";
+.history-info-cover .history-info .title::before {
+  content: "➜";
   font-family: 'FontAwesome';
   position: absolute;
   left: -105px;

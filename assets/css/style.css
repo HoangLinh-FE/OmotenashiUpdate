@@ -2876,7 +2876,7 @@ footer h6 {
 }
 .history-info-cover .history-info .title::before {
   content: "➜";
-  /* font-family: 'Roboto'; */
+  font-family: sans-serif;
   position: absolute;
   left: -105px;
   top: 26px;

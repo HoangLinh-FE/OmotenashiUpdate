@@ -376,7 +376,7 @@ header {
   position: relative;
   padding: 10px;
 }
-.nav-list li:hover{
+.nav-list li:hover {
   background-color: #2ccfbb;
 }
 @media (min-width: 768px) {
@@ -488,7 +488,7 @@ header {
   transition: all 0.3s ease;
   color: #151515;
   letter-spacing: 0.12em;
-  width: 128px; 
+  width: 128px;
 }
 .nav-list li a i {
   margin-left: 5px;
@@ -902,7 +902,7 @@ header {
   .header-menu.header-menu-two {
     overflow: visible;
   }
-  .nav-list li a{
+  .nav-list li a {
     width: 100% !important;
   }
 }
@@ -1554,7 +1554,7 @@ footer h6 {
   color: #151515;
   /* padding: 10px; */
 }
-.footer-menu li a:hover{
+.footer-menu li a:hover {
   background-color: #2ccfbb;
   padding: 10px;
   color: #0d3150;
@@ -2875,7 +2875,7 @@ footer h6 {
   position: relative;
 }
 .history-info-cover .history-info .title:before {
-  content: "";
+  content: "\f061";
   font-family: FontAwesome;
   position: absolute;
   left: -105px;
@@ -5856,7 +5856,7 @@ blockquote:before {
   .s-pravicy-policy .accordion-item:not(:first-child) {
     margin-top: 30px;
   }
-  .nav-list li a{
+  .nav-list li a {
     width: 100% !important;
   }
 }

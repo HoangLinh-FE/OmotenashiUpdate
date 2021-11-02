@@ -141,3 +141,30 @@
 .w-110 {
   width: 110px !important;
 }
+.pad-30::before {
+  content: ".";
+  color: #fff;
+}
+.font-18{
+  font-size: 18px;
+}
+
+.img-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-QR{
+  position: relative;
+
+}
+
+.register-QR:before {
+  content: "";
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

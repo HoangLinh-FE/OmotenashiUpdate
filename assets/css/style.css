@@ -1543,15 +1543,21 @@ footer h6 {
   justify-content: flex-end;
 }
 .footer-menu li:not(:last-child) {
-  margin-right: 54px;
+  margin-right: 18px;
 }
 .footer-menu li a {
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
   line-height: 26px;
   color: #151515;
+  /* padding: 10px; */
+}
+.footer-menu li a:hover{
+  background-color: #2ccfbb;
+  padding: 10px;
+  color: #0d3150;
 }
 .copyright,
 .copyright a {
@@ -1559,7 +1565,7 @@ footer h6 {
 }
 .footer-menu li a:hover,
 .copyright a:hover {
-  color: #2ccfbb;
+  color: #000;
 }
 @media (max-width: 1199px) {
   .insta-list li a img {
@@ -2752,10 +2758,14 @@ footer h6 {
 .overview-img-cover .overview-img:first-child img:first-child {
   margin-bottom: 30px;
 }
+.overview-img-cover .overview-img img {
+  margin-bottom: 30px;
+}
 .overview-img-cover .overview-img:last-child img {
-  height: 100%;
+  /* height: 100%; */
   -o-object-fit: cover;
   object-fit: cover;
+  margin-bottom: 30px;
 }
 .overview-img-cover .overview-img img {
   width: 100%;
@@ -2794,6 +2804,10 @@ footer h6 {
   max-width: 460px;
 }
 .our-history-left .history-cert .history-cert-img {
+  width: 50%;
+  padding: 0 15px;
+}
+.our-history-left .history-cert .history-cert-video {
   width: 50%;
   padding: 0 15px;
 }
@@ -4430,7 +4444,7 @@ blockquote:before {
   line-height: 82px;
 }
 .s-pricing .pricing-item:nth-of-type(2) .pricing-item-content {
-  padding-bottom: 45px;
+  /* padding-bottom: 45px; */
 }
 .s-pricing .pricing-item .pricing-item-content {
   padding: 20px 17px 45px;
@@ -5398,7 +5412,7 @@ blockquote:before {
   }
 
   .s-pricing .pricing-item:nth-of-type(2) .pricing-item-content {
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
   }
   .s-pricing .pricing-item .pricing-info {
     min-height: 85px;
@@ -5423,7 +5437,7 @@ blockquote:before {
     margin-right: 5px;
   }
   .overview-img-cover .overview-img:last-child img {
-    height: 280px;
+    /* height: 280px; */
   }
   .pad-30::before {
     content: ".";
@@ -5653,8 +5667,8 @@ blockquote:before {
     left: -45px;
     top: 6px;
     border-width: 5px;
-    width: 21px;
-    height: 21px;
+    width: 30px;
+    height: 30px;
   }
   .upcoming-course-cover {
     margin-top: 40px;
@@ -5764,7 +5778,7 @@ blockquote:before {
     align-items: center;
   }
   .s-about-home-two .about-img {
-    display: none;
+    /* display: none; */
   }
   .s-pricing .container:after,
   .s-pricing .container:before,

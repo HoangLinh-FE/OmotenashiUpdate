@@ -168,3 +168,7 @@
   top: 0;
   left: 0;
 }
+
+.text-bold{
+  font-weight: 800;
+}

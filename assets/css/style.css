@@ -2403,7 +2403,7 @@ footer h6 {
   height: 100%;
 }
 .about-testimonials-slider {
-  padding: 180px 0;
+  padding: 80px 0 180px;
   position: relative;
 }
 .about-testimonials-slider.s-testimonials .slogan {
@@ -2729,11 +2729,14 @@ footer h6 {
   text-align: left;
 }
 .overview {
-  padding: 180px 0 82px;
+  padding: 20px 0 82px;
 }
 .overview-info {
-  padding: 7px 0 0 0;
+  /* padding: 7px 0 0 0; */
   max-width: 460px;
+}
+.overview-info-item:first-child{
+  margin-top: 0;
 }
 .overview-info-item {
   margin-top: 34px;
@@ -2773,7 +2776,7 @@ footer h6 {
   border-radius: 5px;
 }
 .our-history {
-  padding: 92px 0 60px;
+  padding: 10px 0 60px;
 }
 .our-history:before {
   content: "";

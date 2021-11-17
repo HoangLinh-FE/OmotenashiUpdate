@@ -172,3 +172,16 @@
 .text-bold{
   font-weight: 800;
 }
+
+.img-demo{
+  background-color: #0d3150;
+  height: 50px;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.pad-10{
+  padding-top: 50px !important;
+}

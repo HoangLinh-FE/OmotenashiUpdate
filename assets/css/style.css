@@ -147,6 +147,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   min-width: 320px;
   overflow-x: hidden;
   background: #f6fdf5;
@@ -394,8 +395,8 @@ header {
   }
   .nav-list > li {
     display: inline-block;
-    text-align: left;
-    margin-right: 10px;
+    text-align: center;
+    /* margin-right: 10px; */
   }
   .nav-list > li:last-child {
     margin-right: 0;
@@ -684,7 +685,7 @@ header {
 }
 .page-title .container {
   padding: 102px 15px 31px;
-  min-height: 300px;
+  min-height: 100px;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
@@ -5250,7 +5251,7 @@ blockquote:before {
   }
   .page-title .container {
     padding: 68px 15px 20px;
-    min-height: 210px;
+    min-height: 150px;
   }
   .our-history-left {
     padding-right: 50px;

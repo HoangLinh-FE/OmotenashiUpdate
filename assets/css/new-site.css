@@ -176,12 +176,14 @@
 .img-demo{
   background-color: #0d3150;
   height: 50px;
+  margin-bottom: 10px;
 }
 
 .text-black {
   color: #000 !important;
+  word-break: keep-all;
 }
 
 .pad-10{
-  padding-top: 50px !important;
+  padding-top: 0px !important;
 }

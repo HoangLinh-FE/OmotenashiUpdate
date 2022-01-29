@@ -2579,7 +2579,7 @@ footer h6 {
   background: transparent;
 }
 .s-gallery {
-  padding: 180px 0 174px;
+  padding: 20px 0 174px;
 }
 .row-gallery {
   margin: 35px -15px 23px;
@@ -2609,11 +2609,11 @@ footer h6 {
   background-color: #151515;
   opacity: 0;
 }
-.gallery-item a:hover:before {
+/* .gallery-item a:hover:before {
   opacity: 0.8;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
-}
+} */
 .gallery-item a img {
   width: 100%;
   display: block;

@@ -114,7 +114,10 @@
 
 .bg-light {
   background: none;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
+}
+.bg-blue{
+  background-color: #F6FDF5;
 }
 
 .icon-refresh {
@@ -225,3 +228,4 @@
 .font-size-32{
   font-size: 32px;
 }
+

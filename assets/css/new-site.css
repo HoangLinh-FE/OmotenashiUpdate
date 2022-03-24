@@ -100,6 +100,11 @@
   font-size: 48px;
 }
 
+@media only screen and (max-width: 768px) {
+  .home-title-1 {
+    font-size: 30px;
+  }
+}
 .icon-check {
   background-color: #58be60;
   border-radius: 50%;
@@ -231,5 +236,24 @@
 .join-our-team-item img {
   width: 100%;
   height: 270px;
-  
 }
+.img-eduBusiness {
+  border-radius: 20px;
+}
+/* .focus-center{
+  object-position: center center !important; 
+} */
+
+.pad-center {
+  padding: 50px;
+}
+
+.pad-center p {
+  color: #000;
+}
+
+.img-eduBusiness {
+  width: 90%;
+}
+
+

@@ -2079,8 +2079,8 @@ footer h6 {
   margin-bottom: 30px;
 }
 .course-item-cover:nth-of-type(2n) {
-  -webkit-transform: translateY(30px);
-  transform: translateY(30px);
+  -webkit-transform: translateY(80px);
+  transform: translateY(80px);
 }
 .course-item {
   padding: 30px 30px 35px;
@@ -2101,23 +2101,27 @@ footer h6 {
   transition: 0.3s ease;
 }
 .course-right {
-  width: calc(50% - 15px);
+  width: 90%;
 }
+
+
 .course-left {
-  width: 50%;
+  width: calc(20% - 15px);
 }
 .course-left .title {
   margin-bottom: 15px;
 }
-.course-left .date i {
+.course-right .title:hover {
+  color: #2ccfbb;
+  cursor: default;
+}
+.course-left .content i {
   font-weight: 900;
   font-size: 18px;
   color: #c4c4c4;
   margin-right: 18px;
 }
-.course-left .date a {
-  font-weight: 500;
-}
+
 .course-right {
   border-left: 1px solid #efefef;
   display: -webkit-box;
@@ -2132,9 +2136,10 @@ footer h6 {
   justify-content: space-between;
   -webkit-box-align: end;
   -ms-flex-align: end;
-  align-items: flex-end;
+  /* align-items: flex-end; */
+  padding: 0 10px;
 }
-.course-right .price {
+/* .course-right .price {
   font-weight: 600;
   font-size: 18px;
   line-height: 36px;
@@ -2143,6 +2148,10 @@ footer h6 {
   margin-bottom: 20px;
 }
 .course-right .price span {
+  font-size: 36px;
+  color: #2ccfbb;
+} */
+.course-left .price span {
   font-size: 36px;
   color: #2ccfbb;
 }
@@ -4862,7 +4871,7 @@ blockquote:before {
     padding: 26px 20px 30px;
   }
   .course-right {
-    width: 50%;
+    width: 75%;
   }
   .course-right .price {
     margin-bottom: 14px;
